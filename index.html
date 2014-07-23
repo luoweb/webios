@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="Web app-IOS    Powered By HTML5!" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+<title>Web APP</title>
+<link rel="stylesheet" href="css/main.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.16.custom.min.js"></script> 
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/interface.js"></script>
+<script type="text/javascript" src="js/config.js"></script>
+</head>
+<body>
+<div id="mainbox">
+	<div id="iphone">
+    	<div id="home-bottom"><p class="home-text">HOME</p></div>
+    	<div id="iphone-content">
+        	<!-- div id="status-top">
+            		<span id="signal" class="status-icon"></span>
+                	<span id="ATT" class="status-icon"></span>
+                	<span id="wifi" class="status-icon"></span>
+                    <span id="lock-icon" class="status-icon"></span>
+                    <span id="battery-count" class="status-icon">100%</span>
+                    <span id="battery" class="status-icon"></span>
+            </div -->
+            <!--------------------------------------------------------------->
+        	<div id="lock-group">        	
+            	<div id="lock-top">
+                	<div id="lock-time">
+                    	<p class="lock-date"></p>
+                    </div>
+                    <div id="lock-date">
+                    	<p class="lock-date"></p>
+                    </div>
+                </div>
+                <div id="lock-bottom">
+                	<div id="slide-to-unlock"></div>
+                    <div id="slide-container">
+                        <div id="slide-hander"></div>
+                    </div>
+                </div>
+            </div>
+            <!--------------------------------------------------------------->
+            <div id="app">
+            	<!---------------------app背景，为白色----------------------->
+            	<div id="app-bg">
+                </div>
+                <div id="preview-pic"><!--预览图片--></div>
+                <div id="app-content">
+                	<iframe></iframe>
+                </div>
+            </div>
+            <!--------------------------------------------------------------->
+            <div id="screen">  
+                <div id="icon-ground-one" class="screen">
+                    <div id="one-top-left" class="icon-group" group="1">
+                        <div class="icon" height="460">
+                            <img src="images/icons/icon_text.png" />
+                            <p class="icon-name">短信</p>
+                        </div>
+                        <div class="icon" height="460">
+                            <img src="images/icons/icon_calendar.png" />
+                            <p class="icon-name">日历</p>
+                        </div>
+                        <div class="icon" height="460">
+                            <img src="images/icons/icon_settings.png" />
+                            <p class="icon-name">设置</p>
+                        </div>
+                        <div class="icon" height="460">
+                            <img src="images/icons/icon_clock.png" />
+                            <p class="icon-name">时钟</p>
+                        </div>
+                    </div>
+                    <div id="one-top-right" class="icon-group" group="2">
+                        <div class="icon" height="460">
+                            <img src="images/icons/icon_photos.png" />
+                            <p class="icon-name">照片</p>
+                        </div>
+                        <div class="icon" height="460">
+                            <img src="images/icons/icon_camera.png" />
+                            <p class="icon-name">相机</p>
+                        </div>
+                        <div class="icon" height="460">
+                            <img src="images/icons/icon_appstore.png" />
+                            <p class="icon-name">App Store</p>
+                        </div>
+                        <div class="icon" name="calculator" height="460" status="black">
+                            <img src="images/icons/icon_calculator.png" />
+                            <p class="icon-name">计算器</p>
+                        </div>
+                    </div>
+                    <div id="one-bottom-left" class="icon-group" group="3">
+                        <div class="icon" height="460">
+                            <img src="images/icons/icon_itunes.png" />
+                            <p class="icon-name">iTunes</p>
+                        </div>
+                        <div class="icon" height="460">
+                            <img src="images/icons/icon_maps.png" />
+                            <p class="icon-name">地图</p>
+                        </div>
+                        <div class="icon" height="460">
+                            <img src="images/icons/icon_youtube.png" />
+                            <p class="icon-name">youtube</p>
+                        </div>
+                        <div class="icon" height="460">
+                            <img src="images/icons/icon_weather.png" />
+                            <p class="icon-name">天气</p>
+                        </div>
+                    </div>
+                    <div id="one-bottom-right" class="icon-group" group="4">
+                        <div class="icon" height="460">
+                            <img src="images/icons/icon_stocks.png" />
+                            <p class="icon-name">股票</p>
+                        </div>
+                        <div class="icon" height="460" name="notes" status="black">
+                            <img src="images/icons/icon_notes.png" />
+                            <p class="icon-name">备忘录</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="icon-group-two" class="screen">
+                	<!--第二屏-->
+                </div>
+                <div id="icon-preview">
+                </div>
+                <div id="mouseDown">
+                </div>
+            </div>
+            <!--------------------------------------------------------------->
+            <div id="dock" group="5">
+            	<div class="dock" height="460">
+                	<img src="images/icons/icon_phone.png" />
+                    <p class="icon-name">电话</p>
+                </div>
+                <div class="dock" height="460">
+                	<img src="images/icons/icon_mail.png" />
+                    <p class="icon-name">mail</p>
+                </div>
+                <div class="dock" height="460">
+                	<img src="images/icons/icon_safari.png" />
+                    <p class="icon-name">safari</p>
+                </div>
+                <div class="dock" height="480"> 
+                	<img src="images/icons/icon_ipod.png" />
+                    <p class="icon-name">ipod</p>
+                </div>
+            </div>
+            <!--------------------------------------------------------------->
+        </div>
+    </div>
+</div>
+</body>
+</html>

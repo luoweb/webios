@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+    <style type="text/css">
+        .fold *{
+            display: none;
+        }
+        .spread *{
+            display: block;
+        }
+        li{
+            border-bottom: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <ul id="lists">
+            <li>li-1
+                <ul>
+                    <li>li-11</li>
+                    <li>li-12</li>
+                    <li>li-13</li>
+                </ul>
+            </li>
+            <li>li-2
+                <ul>
+                    <li>li-21</li>
+                    <li>li-22</li>
+                    <li>li-23</li>
+                </ul>
+            </li>
+            <li>li-3
+                <ul>
+                    <li>li-31</li>
+                    <li>li-32</li>
+                    <li>li-33</li>
+                </ul>
+            </li>
+            <li>li-4
+                <ul>
+                    <li>li-41</li>
+                    <li>li-42</li>
+                    <li>li-43</li>
+                </ul>
+            </li>
+            <li>li-5
+                <ul>
+                    <li>li-51</li>
+                    <li>li-52</li>
+                    <li>li-53</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        document.onclick = function(event){
+            var target = event ? event.target : window.event.srcElement;
+            if(target.className === "fold"){
+                target.className = "spread";
+            }else{
+                target.className = "fold";
+            }
+        }
+    </script>
+</body>
+</html>

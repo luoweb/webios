@@ -1,0 +1,294 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0px;
+	margin:0px;
+	border:none;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #faf8ef;
+  color: #776e65;
+  font-size: 18px; 
+}
+
+
+#iphone{
+	background:#25262b;
+	position:absolute;
+	width:0px;
+	height:0px;
+}
+#home-bottom{
+    background:#736677;
+	position:absolute;
+	width:320px;
+	height:55px;
+	top:480px;
+	cursor:pointer;
+    text-align:center;
+	z-index:100;
+}
+.home-text{
+    color:white;
+    font-size:60px
+    text-align:center;
+}
+#iphone-content{
+	position:relative;
+/*	background:url(../images/background/background.jpg) no-repeat; */
+    background: #aaf8ef;
+	overflow:hidden;
+	width:320px;
+	height:480px;
+	top:0px;
+	left:0px;
+    vertical-align:middle
+}
+/*----------------------------------lock-background----------------------------*/
+/*------------------top-status--------------*/
+/*
+.status-icon{
+	display:inline-block;
+}
+#status-top{
+	width:320px;
+	height:20px;
+	position:relative;
+	z-index:99999;
+	background-color:rgba(0 ,0 ,0 , 0.6);
+}
+#signal{
+	background:url(../images/status/signal.png) no-repeat;
+	width:19px;
+	height:20px;
+	margin-left:2px;
+}
+#ATT{
+	background:url(../images/status/ATT-icon.png) no-repeat;
+	width:31px;
+	height:20px;
+	margin-left:2px;
+}
+#wifi{
+	background:url(../images/status/WiFi-icon.png) no-repeat;
+	margin-top:2px;
+	width:20px;
+	height:18px;
+}
+#lock-icon{
+	position:absolute;
+	margin-left:-5px;
+	left:50%;
+	top:0px;
+	width:10px;
+	height:20px;
+}
+#battery-count{
+	position:absolute;
+	color:white;
+	width:20px;
+	height:20px;
+	top:1px;
+	right:39px;
+	font-size:12px;
+}
+#battery{
+	background:url(../images/status/battery-icon.png) no-repeat;
+	position:absolute;
+	width:21px;
+	height:20px;
+	top:0px;
+	right:3px;
+}
+*/
+
+/*--------------lock-top-------------*/
+#lock-top{
+	position:relative;
+	margin-top:-1px;
+	width:320px;
+	height:95px;
+}
+#lock-time{
+	width:150px;
+	height:60px;
+	margin:0 auto;
+	padding-top:5px;
+}
+#lock-date{
+	width:120px;
+	height:20px;
+	margin:0 auto;
+	padding-top:5px;
+}
+.lock-date{
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:100;
+	color:white;
+}
+#lock-time p{
+	font-size:55px;
+}
+#lock-date p{
+	font-size:15px;
+}
+/*--------------lock-bottom-------------*/
+#lock-bottom{
+	position:relative;
+	margin-top:272px;
+	width:320px;
+	height:94px;
+}
+#slide-to-unlock{
+	width:320px;
+	height:94px;
+}
+#slide-container{
+	width:277px;
+	height:50px;
+	position:absolute;
+	top:23px;
+	left:22px;
+}
+#slide-hander{
+	opacity:1;
+	position:relative;
+	cursor:pointer;
+	width:72px;
+	height:50px;
+}
+/*--------------------------------------icon-group---------------------------*/
+img{
+	cursor:pointer;
+}
+#screen{
+	display:none;
+}
+/*--------------------------top-left--------------------*/
+.icon-group{
+	position:absolute;
+	width:169px;
+	height:172px;
+}
+.icon{
+	position:absolute;
+	width:58px;
+	height:70px;
+}
+.icon:nth-child(1){
+	top:10px;
+	left:17px;
+}
+.icon:nth-child(2){
+	top:10px;
+	left:92px;
+}
+.icon:nth-child(3){
+	bottom:10px;
+	left:17px;
+}
+.icon:nth-child(4){
+	bottom:10px;
+	left:92px;
+}
+#one-top-left{
+	left:-160px;
+	top:-140px;
+}
+#one-top-right{
+	top:-140px;
+	right:-160px;
+}
+#one-bottom-left{
+	left:-160px;
+	top:352px;
+}
+#one-bottom-right{
+	right:-160px;
+	top:352px;
+}
+.preview-pic{
+	position:absolute;
+	width:0px;
+	height:0px;
+	left:160px;
+	top:230px;
+}
+#preview-pic{
+	position:absolute;
+	width:320px;
+	height:480px;
+	left:0px;
+}
+#mouseDown{
+	background:rgba(0, 0, 0, 0.2);
+	border-radius:10px;
+	position:absolute;
+	display:none;
+	width:56px;
+	height:57px;
+	z-index:100;
+	top:715.5px;
+	left:322px;
+	
+}
+#app-content{
+	position:absolute;
+	top:20px;
+	left:0px;
+	z-index:10;
+}
+#app-bg{
+	background:white;
+	position:absolute;
+}
+#app-content iframe{
+	position:absolute;
+	display:none;
+	width:320px;
+	height:480px;
+	left:0px;
+	top:-20px;
+	z-index:10;
+	overflow:hidden;
+}
+/*--------------dock-------------*/
+#dock{
+	position:absolute;
+	bottom:-90px;
+	width:320px;
+	height:70px;
+}
+.dock{
+	position:absolute;
+	text-align:center;
+}
+.dock span{
+	text-align:center;
+	width:58px;
+}
+.icon-name{
+	color:white;
+	font-family:Tahoma, Geneva, sans-serif;
+	cursor:default;
+	font-size:11px;
+	-webkit-text-size-adjust:none;
+	width:58px;
+	text-align:center;
+	text-shadow:1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+#dock div:nth-child(1){
+	left:17px;
+}
+#dock div:nth-child(2){
+	left:93px;
+}
+#dock div:nth-child(3){
+	right:93px;
+}
+#dock div:nth-child(4){
+	right:17px;
+}
