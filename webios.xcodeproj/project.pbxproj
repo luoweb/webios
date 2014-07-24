@@ -182,6 +182,7 @@
 		C3F463EF19813EBB00EBAC65 /* game.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = game.js; sourceTree = "<group>"; };
 		C3F463F019813EBB00EBAC65 /* jump.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = jump.html; sourceTree = "<group>"; };
 		C3F463F219813ED200EBAC65 /* clock.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = clock.html; sourceTree = "<group>"; };
+		C3F463F319817A0300EBAC65 /* LLink.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = LLink.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -582,6 +583,7 @@
 		C3F463EC19813EBB00EBAC65 /* jump */ = {
 			isa = PBXGroup;
 			children = (
+				C3F463F319817A0300EBAC65 /* LLink.js */,
 				C3F463ED19813EBB00EBAC65 /* angel.png */,
 				C3F463EE19813EBB00EBAC65 /* game copy.js */,
 				C3F463EF19813EBB00EBAC65 /* game.js */,
