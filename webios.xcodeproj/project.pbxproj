@@ -142,6 +142,46 @@
 		C35E761E197FE58C00B679A6 /* loadPreviewPic.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = loadPreviewPic.js; sourceTree = "<group>"; };
 		C35E761F197FE58C00B679A6 /* main.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		C35E7620197FE58C00B679A6 /* test.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		C35E7649197FE99000B679A6 /* icon_2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_2048.png; sourceTree = "<group>"; };
+		C35E764B197FEE0300B679A6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		C35E764C197FEE0300B679A6 /* .jshintrc */ = {isa = PBXFileReference; lastKnownFileType = text; path = .jshintrc; sourceTree = "<group>"; };
+		C35E764D197FEE0300B679A6 /* 2048.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = 2048.html; sourceTree = "<group>"; };
+		C35E764E197FEE0300B679A6 /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
+		C35E764F197FEE0300B679A6 /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
+		C35E7651197FEE0300B679A6 /* animframe_polyfill.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = animframe_polyfill.js; sourceTree = "<group>"; };
+		C35E7652197FEE0300B679A6 /* application.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = application.js; sourceTree = "<group>"; };
+		C35E7653197FEE0300B679A6 /* bind_polyfill.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = bind_polyfill.js; sourceTree = "<group>"; };
+		C35E7654197FEE0300B679A6 /* classlist_polyfill.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = classlist_polyfill.js; sourceTree = "<group>"; };
+		C35E7655197FEE0300B679A6 /* game_manager.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = game_manager.js; sourceTree = "<group>"; };
+		C35E7656197FEE0300B679A6 /* grid.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = grid.js; sourceTree = "<group>"; };
+		C35E7657197FEE0300B679A6 /* html_actuator.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = html_actuator.js; sourceTree = "<group>"; };
+		C35E7658197FEE0300B679A6 /* keyboard_input_manager.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = keyboard_input_manager.js; sourceTree = "<group>"; };
+		C35E7659197FEE0300B679A6 /* local_storage_manager.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = local_storage_manager.js; sourceTree = "<group>"; };
+		C35E765A197FEE0300B679A6 /* tile.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = tile.js; sourceTree = "<group>"; };
+		C35E765B197FEE0300B679A6 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		C35E765D197FEE0300B679A6 /* apple-touch-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon.png"; sourceTree = "<group>"; };
+		C35E765E197FEE0300B679A6 /* apple-touch-startup-image-640x1096.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-startup-image-640x1096.png"; sourceTree = "<group>"; };
+		C35E765F197FEE0300B679A6 /* apple-touch-startup-image-640x920.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-startup-image-640x920.png"; sourceTree = "<group>"; };
+		C35E7660197FEE0300B679A6 /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
+		C35E7661197FEE0300B679A6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C35E7672197FF2A100B679A6 /* 2048.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = 2048.css; sourceTree = "<group>"; };
+		C35E7674197FF2A100B679A6 /* clear-sans.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = "clear-sans.css"; sourceTree = "<group>"; };
+		C35E7675197FF2A100B679A6 /* ClearSans-Bold-webfont.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClearSans-Bold-webfont.eot"; sourceTree = "<group>"; };
+		C35E7676197FF2A100B679A6 /* ClearSans-Bold-webfont.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "ClearSans-Bold-webfont.svg"; sourceTree = "<group>"; };
+		C35E7677197FF2A100B679A6 /* ClearSans-Bold-webfont.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClearSans-Bold-webfont.woff"; sourceTree = "<group>"; };
+		C35E7678197FF2A100B679A6 /* ClearSans-Light-webfont.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClearSans-Light-webfont.eot"; sourceTree = "<group>"; };
+		C35E7679197FF2A100B679A6 /* ClearSans-Light-webfont.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "ClearSans-Light-webfont.svg"; sourceTree = "<group>"; };
+		C35E767A197FF2A100B679A6 /* ClearSans-Light-webfont.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClearSans-Light-webfont.woff"; sourceTree = "<group>"; };
+		C35E767B197FF2A100B679A6 /* ClearSans-Regular-webfont.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClearSans-Regular-webfont.eot"; sourceTree = "<group>"; };
+		C35E767C197FF2A100B679A6 /* ClearSans-Regular-webfont.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "ClearSans-Regular-webfont.svg"; sourceTree = "<group>"; };
+		C35E767D197FF2A100B679A6 /* ClearSans-Regular-webfont.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClearSans-Regular-webfont.woff"; sourceTree = "<group>"; };
+		C35E767E197FF2A100B679A6 /* helpers.scss */ = {isa = PBXFileReference; lastKnownFileType = text; path = helpers.scss; sourceTree = "<group>"; };
+		C35E767F197FF2A100B679A6 /* main.scss */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.scss; sourceTree = "<group>"; };
+		C3F463ED19813EBB00EBAC65 /* angel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angel.png; sourceTree = "<group>"; };
+		C3F463EE19813EBB00EBAC65 /* game copy.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "game copy.js"; sourceTree = "<group>"; };
+		C3F463EF19813EBB00EBAC65 /* game.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = game.js; sourceTree = "<group>"; };
+		C3F463F019813EBB00EBAC65 /* jump.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = jump.html; sourceTree = "<group>"; };
+		C3F463F219813ED200EBAC65 /* clock.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = clock.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -162,6 +202,9 @@
 		C35E7584197FE58B00B679A6 /* apps */ = {
 			isa = PBXGroup;
 			children = (
+				C3F463F119813ED200EBAC65 /* clock */,
+				C3F463EC19813EBB00EBAC65 /* jump */,
+				C35E764A197FEE0300B679A6 /* 2048 */,
 				C35E7585197FE58B00B679A6 /* calculator */,
 				C35E75B0197FE58B00B679A6 /* developing */,
 				C35E75B4197FE58B00B679A6 /* notes */,
@@ -384,6 +427,7 @@
 		C35E75F2197FE58C00B679A6 /* icons */ = {
 			isa = PBXGroup;
 			children = (
+				C35E7649197FE99000B679A6 /* icon_2048.png */,
 				C35E75F3197FE58C00B679A6 /* icon_appstore.png */,
 				C35E75F4197FE58C00B679A6 /* icon_calculator.png */,
 				C35E75F5197FE58C00B679A6 /* icon_calendar.png */,
@@ -460,6 +504,98 @@
 				C35E7618197FE58C00B679A6 /* dwsync.xml */,
 			);
 			path = _notes;
+			sourceTree = "<group>";
+		};
+		C35E764A197FEE0300B679A6 /* 2048 */ = {
+			isa = PBXGroup;
+			children = (
+				C35E764B197FEE0300B679A6 /* .gitignore */,
+				C35E764C197FEE0300B679A6 /* .jshintrc */,
+				C35E764D197FEE0300B679A6 /* 2048.html */,
+				C35E764E197FEE0300B679A6 /* CONTRIBUTING.md */,
+				C35E764F197FEE0300B679A6 /* favicon.ico */,
+				C35E7650197FEE0300B679A6 /* js */,
+				C35E765B197FEE0300B679A6 /* LICENSE.txt */,
+				C35E765C197FEE0300B679A6 /* meta */,
+				C35E7660197FEE0300B679A6 /* Rakefile */,
+				C35E7661197FEE0300B679A6 /* README.md */,
+				C35E7671197FF2A100B679A6 /* css */,
+			);
+			path = 2048;
+			sourceTree = "<group>";
+		};
+		C35E7650197FEE0300B679A6 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				C35E7651197FEE0300B679A6 /* animframe_polyfill.js */,
+				C35E7652197FEE0300B679A6 /* application.js */,
+				C35E7653197FEE0300B679A6 /* bind_polyfill.js */,
+				C35E7654197FEE0300B679A6 /* classlist_polyfill.js */,
+				C35E7655197FEE0300B679A6 /* game_manager.js */,
+				C35E7656197FEE0300B679A6 /* grid.js */,
+				C35E7657197FEE0300B679A6 /* html_actuator.js */,
+				C35E7658197FEE0300B679A6 /* keyboard_input_manager.js */,
+				C35E7659197FEE0300B679A6 /* local_storage_manager.js */,
+				C35E765A197FEE0300B679A6 /* tile.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		C35E765C197FEE0300B679A6 /* meta */ = {
+			isa = PBXGroup;
+			children = (
+				C35E765D197FEE0300B679A6 /* apple-touch-icon.png */,
+				C35E765E197FEE0300B679A6 /* apple-touch-startup-image-640x1096.png */,
+				C35E765F197FEE0300B679A6 /* apple-touch-startup-image-640x920.png */,
+			);
+			path = meta;
+			sourceTree = "<group>";
+		};
+		C35E7671197FF2A100B679A6 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				C35E7672197FF2A100B679A6 /* 2048.css */,
+				C35E7673197FF2A100B679A6 /* fonts */,
+				C35E767E197FF2A100B679A6 /* helpers.scss */,
+				C35E767F197FF2A100B679A6 /* main.scss */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		C35E7673197FF2A100B679A6 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C35E7674197FF2A100B679A6 /* clear-sans.css */,
+				C35E7675197FF2A100B679A6 /* ClearSans-Bold-webfont.eot */,
+				C35E7676197FF2A100B679A6 /* ClearSans-Bold-webfont.svg */,
+				C35E7677197FF2A100B679A6 /* ClearSans-Bold-webfont.woff */,
+				C35E7678197FF2A100B679A6 /* ClearSans-Light-webfont.eot */,
+				C35E7679197FF2A100B679A6 /* ClearSans-Light-webfont.svg */,
+				C35E767A197FF2A100B679A6 /* ClearSans-Light-webfont.woff */,
+				C35E767B197FF2A100B679A6 /* ClearSans-Regular-webfont.eot */,
+				C35E767C197FF2A100B679A6 /* ClearSans-Regular-webfont.svg */,
+				C35E767D197FF2A100B679A6 /* ClearSans-Regular-webfont.woff */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		C3F463EC19813EBB00EBAC65 /* jump */ = {
+			isa = PBXGroup;
+			children = (
+				C3F463ED19813EBB00EBAC65 /* angel.png */,
+				C3F463EE19813EBB00EBAC65 /* game copy.js */,
+				C3F463EF19813EBB00EBAC65 /* game.js */,
+				C3F463F019813EBB00EBAC65 /* jump.html */,
+			);
+			path = jump;
+			sourceTree = "<group>";
+		};
+		C3F463F119813ED200EBAC65 /* clock */ = {
+			isa = PBXGroup;
+			children = (
+				C3F463F219813ED200EBAC65 /* clock.html */,
+			);
+			path = clock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

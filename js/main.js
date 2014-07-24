@@ -244,4 +244,5 @@ $(function(){
 window.onload = function(){
 	$("<img />").attr("src", "images/preview-pic/calculator.png");
 	$("<img />").attr("src", "images/preview-pic/notes.png");
+    $("<img />").attr("src", "images/preview-pic/2048.png");
 };

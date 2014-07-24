@@ -48,61 +48,7 @@ html, body {
 }
 /*----------------------------------lock-background----------------------------*/
 /*------------------top-status--------------*/
-/*
-.status-icon{
-	display:inline-block;
-}
-#status-top{
-	width:320px;
-	height:20px;
-	position:relative;
-	z-index:99999;
-	background-color:rgba(0 ,0 ,0 , 0.6);
-}
-#signal{
-	background:url(../images/status/signal.png) no-repeat;
-	width:19px;
-	height:20px;
-	margin-left:2px;
-}
-#ATT{
-	background:url(../images/status/ATT-icon.png) no-repeat;
-	width:31px;
-	height:20px;
-	margin-left:2px;
-}
-#wifi{
-	background:url(../images/status/WiFi-icon.png) no-repeat;
-	margin-top:2px;
-	width:20px;
-	height:18px;
-}
-#lock-icon{
-	position:absolute;
-	margin-left:-5px;
-	left:50%;
-	top:0px;
-	width:10px;
-	height:20px;
-}
-#battery-count{
-	position:absolute;
-	color:white;
-	width:20px;
-	height:20px;
-	top:1px;
-	right:39px;
-	font-size:12px;
-}
-#battery{
-	background:url(../images/status/battery-icon.png) no-repeat;
-	position:absolute;
-	width:21px;
-	height:20px;
-	top:0px;
-	right:3px;
-}
-*/
+
 
 /*--------------lock-top-------------*/
 #lock-top{
