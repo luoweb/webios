@@ -336,7 +336,7 @@ var GameLoop = function(){
     checkCollision();
     
     ctx.fillStyle = "Black";
-    ctx.fillText("POINTS:" + points, 10, height-10);
+    ctx.fillText("得分:" + points, 10, height-10);
     
     if (state)
         gLoop = setTimeout(GameLoop, 1000 / 50);
@@ -413,10 +413,10 @@ var GameOver = function(){
                clear();
                
                ctx.fillStyle = "Black";
-               ctx.font = "10pt Arial";
-               ctx.fillText("GAME OVER", width / 2 - 60, height / 2 - 50);
-               ctx.fillText("YOUR RESULT:" + points, width / 2 - 60, height / 2 - 30);
-
+               ctx.font = "14pt Arial";
+               ctx.fillText("游戏结束", width / 2 - 45, height / 2 - 60);
+               ctx.fillText("得分: " + points, width / 2 - 45, height / 2 - 30);
+               ctx.fillText("刷新页面重新开始！", width / 2 - 90, height / 2 - 0);
                
 //               var link = new LLink("http://skiper.sinaapp.com","链接测试");
 //               ctx.addChild(link);
