@@ -343,92 +343,25 @@ var GameLoop = function(){
 }
 
 
-/**
- *LLink.js
- */
-//LStage._linkList = new Array();
-//LStage._isAddLinkEvent = false;
-//LStage._addLinkEvent = function(event){
-//    for(var i in LStage._linkList){
-//        o = LStage._linkList[i];
-//        if(event.offsetX < parseInt(o.x) + parseInt(o.getWidth()) && event.offsetY < parseInt(o.y) + parseInt(o.getHeight()) + parseInt(Math.floor(o.text.size * 0.4)) && event.offsetX > parseInt(o.x) && event.offsetY > parseInt(o.y)){
-//            document.body.style.cursor = "pointer";
-//            return;
-//        }else{
-//            document.body.style.cursor = "default";
-//        }
-//    }
-//}
-//
-//function LLink(url,text,type,color,font,size){
-//    var self = this;
-//    base(self,LSprite,[]);
-//    
-//    self.type = "LLink";
-//    self.url = url;
-//    self.openType = type || "blank";
-//    
-//    self.x = 30;
-//    self.y = 30;
-//    
-//    self.text = new LTextField();
-//    self.text.color = color || "blue";
-//    self.text.font = font || "urf-8";
-//    self.text.size = size || 12;
-//    self.text.x = 0;
-//    self.text.y = 0;
-//    self.text.text = text || url;
-//    self.addChild(self.text);
-//    
-//    self.underLine = new LSprite();
-//    self.underLine.graphics.drawRect(0,self.text.color,[0,0,self.text.getWidth(),Math.floor(self.text.size * 0.1)],true,self.text.color);
-//    self.underLine.x = 0;
-//    self.underLine.y = parseInt(self.text.getHeight()) + Math.floor(self.text.size * 0.3);
-//    self.addChild(self.underLine);
-//    
-//    self.back = new LSprite();
-//    self.back.graphics.drawRect(0,"transparent",[0,0,self.text.getWidth(),self.text.getHeight()],true,"transparent");
-//    self.addChild(self.back);
-//    
-//    LStage._linkList.push(self);
-//    
-//    self.addEventListener(LMouseEvent.MOUSE_DOWN,self._jump);
-//    
-//    if(LStage._isAddLinkEvent == false){
-//        LEvent.addEventListener(LGlobal.object,LMouseEvent.MOUSE_MOVE,LStage._addLinkEvent);
-//        LStage._isAddLinkEvent = true;
-//    }
-//}
-//LLink.prototype._jump = function(event,self){
-//    var openType = "_" + self.openType;
-//    window.open(self.url, openType);
-//}
-
-
 
 var GameOver = function(){
     state = false;
     clearTimeout(gLoop);
     setTimeout(function(){
-               clear();
-               
-               ctx.fillStyle = "Black";
+
+               ctx.fillStyle = "black"
                ctx.font = "14pt Arial";
-               ctx.fillText("游戏结束", width / 2 - 45, height / 2 - 60);
-               ctx.fillText("得分: " + points, width / 2 - 45, height / 2 - 30);
-               ctx.fillText("刷新页面重新开始！", width / 2 - 90, height / 2 - 0);
-               
-//               var link = new LLink("http://skiper.sinaapp.com","链接测试");
-//               ctx.addChild(link);
-               
-               
-               
-               
+               ctx.globalAlpha = 0.7;
+               ctx.fillText("游戏结束", width / 2 - 45, height / 2 - 50);
+               ctx.fillText("得分: " + points, width / 2 - 45, height / 2 - 20);
                
                }, 100);
-    
+    document.getElementById("d").innerHTML = "<input type=\"button\" style=\"width:150px;height:50px;\"  onclick=\"GameRestart()\" name=\"button\" value=\"重新开始\">";
 };
 
+function GameRestart() {
+    location.href = "jump.html"
+}
 
 
 
